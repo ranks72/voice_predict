@@ -1,6 +1,6 @@
 Flask==2.0.2
 gunicorn==20.1.0
-tensorflow
+tensorflow-cpu
 python_speech_features
 numpy
 pybase64
