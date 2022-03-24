@@ -1,0 +1,7 @@
+Flask==2.0.2
+gunicorn==20.1.0
+tensorflow==2.1.0
+python_speech_features==0.6
+numpy==1.19.2
+pybase64==1.2.1
+pydub==0.25.1
