@@ -64,7 +64,7 @@
                     audio : base64Audio
                 }
                 console.log(message);
-                $.post("https://inbound-byte-313314.et.r.appspot.com/predict", JSON.stringify(message), function(response){
+                $.post("https://testing-voice-predict.herokuapp.com/predict", JSON.stringify(message), function(response){
                     $("#label1").text(response.prediction.label1);
                     $("#prob1").text(response.prediction.prob1);
                     $("#label2").text(response.prediction.label2);
