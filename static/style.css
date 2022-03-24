@@ -1,0 +1,11 @@
+.input_movie_data{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px 40px;
+    background-color: none;
+    float: left;
+}
+
+h2{
+    padding-top: 50px;
+}
